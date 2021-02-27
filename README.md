@@ -1,4 +1,21 @@
-## NEXTJS
+
+#### INICIANDO PROJETO
+```bash
+# Inicie um projeto nextjs com yarn
+$ yarn create next-app nomeDoProjeto
+
+# Instale as dependencias de desenvolvimento necessarias para trabalhar com Typescript no seu projeto
+$ yarn add typescript @types/react @types/react-dom @types/node -D
+
+``` 
+
+
+
+
+
+
+
+### O QUE É NEXTJS ?
 O nextjs é um framework da biblioteca reactjs, este framewok nos trás de forma pronta, um conjunto de funcionalidades 
 que repetimos em todas os projetos com reactjs. Trazendo esse conjunto de funcionalidades, conseguimos de uma forma 
 simples utiliza-los, um exemplo claro é o nosso roteamento de paginas, nao precisando instalar bibliotecas externas para 
@@ -45,16 +62,6 @@ Entao utilizando o nextJS e o recurso de Static Site Generation podemos criar um
 essa pagina sempre que seu conteudo for atualizado, evitando assim essas requicões na api para trazer novos conteudos.
 <br><br>
 
-
-#### INICIANDO PROJETO
-```bash
-# Inicie um projeto nextjs com yarn
-$ yarn create next-app nomeDoProjeto
-
-# Instale as dependencias de desenvolvimento necessarias para trabalhar com Typescript no seu projeto
-$ yarn add typescript @types/react @types/react-dom @types/node -D
-
-``` 
 
 
 
