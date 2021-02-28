@@ -1,3 +1,23 @@
+Fazer documentacao no github e subir o app no repositorio
+- como executar o app em maquina local
+- quais funcionalidades existe no app
+- fazer um gif do app
+- prints do app
+
+Ajustar a responsividade do app
+Trocar cores do app, criar um tema dark
+Fazer um pwa do app
+
+Criar um login via github utilizando oauth 
+  - https://www.youtube.com/watch?v=Cz55Jmhfw84&ab_channel=Rocketseat
+  - pesquisar oauth github como fazer no nextjs
+  - projeto no figma 
+  - criar sidebar
+  - criar tela de compartilhar no twitter com thumbnail
+  - criar tela de ranking
+
+Link layout do projeto melhorado no figma 
+https://www.figma.com/file/vRbW1u0CEZuG2zE6bU5qLg/Move.it-2.0/duplicate  
 
 ### INICIANDO PROJETO
 ```bash
@@ -6,6 +26,12 @@ $ yarn create next-app nomeDoProjeto
 
 # Instale as dependencias de desenvolvimento necessarias para trabalhar com Typescript no seu projeto
 $ yarn add typescript @types/react @types/react-dom @types/node -D
+
+# Instalando a biblioteca de js-cookie
+$ yarn add js-cookie
+
+# Instalando a dependencia de desenvolvimento para tipagens do js-cookie
+$ yarn add @types/js-cookie -D
 
 ``` 
 
@@ -86,3 +112,17 @@ export function CountdownProvider({ children }: CountdownProviderProps) {
   )
 }
 ```
+
+## LOCAL STORAGE, SESSION STORAGE e COOKIES
+Local storage e um meio que guarda dados do tipo chave/valor, os dados sempre sao armazenados como textos, e os dados se
+mantem mesmo quando fechamos o navegador e abrimos ele novamente, enquanto o usuario nao limpar o browser aquele dado
+continua.
+
+Session storage, faz a mesma coisa que o local storage com uma unica diferenca de que, os dados continuam armazenandos 
+enquanto houver aquela sessao, ou seja, se voce fechar o navegador ou reiniciar seu computador aqueles dados sao nao
+continuam salvos.
+
+Os cookies e a maneira mais antiga de salvar dados no navegador, ele tambem tem suas funcionalidades muito semelhante 
+ao local storage, porem tem seus diferenciais como por exemplo salvar os dados em mais de um dominio, colocar um tempo 
+para os dados salvos expirar, definir se o acesso as esses dados sao apenas pelo backend ou frontend entre diversas 
+outras funcionalidades.
