@@ -1,5 +1,5 @@
 
-#### INICIANDO PROJETO
+### INICIANDO PROJETO
 ```bash
 # Inicie um projeto nextjs com yarn
 $ yarn create next-app nomeDoProjeto
@@ -8,12 +8,6 @@ $ yarn create next-app nomeDoProjeto
 $ yarn add typescript @types/react @types/react-dom @types/node -D
 
 ``` 
-
-
-
-
-
-
 
 ### O QUE É NEXTJS ?
 O nextjs é um framework da biblioteca reactjs, este framewok nos trás de forma pronta, um conjunto de funcionalidades 
@@ -63,8 +57,32 @@ essa pagina sempre que seu conteudo for atualizado, evitando assim essas requic�
 <br><br>
 
 
+#### CONTEXT API
+O context api sao formas de conseguir compartilhar informacoes entre componentes dentro de uma aplicacao.
+
+exemplo de uma estrutura basica de um contexto:
+```javascript
+import { createContext, ReactNode } from 'react';
+
+interface CountdownContextData {
+
+}
+
+interface CountdownProviderProps {
+  children: ReactNode;
+}
 
 
+const CountdownContext = createContext({} as CountdownContextData);
 
+export function CountdownProvider({ children }: CountdownProviderProps) {
 
+  
 
+  return (
+    <CountdownContext.Provider value={{}}>
+      { children }
+    </CountdownContext.Provider>
+  )
+}
+```
