@@ -7,9 +7,9 @@ export function Profile() {
 
   return(
     <div className={styles.profileContainer}>
-      <img src="https://github.com/jefferson1104.png" alt="Jefferson Soares"/>
+      <img src="me.png" alt="Jefferson Soares"/>
       <div>
-        <strong>Jefferson Soares</strong>
+        <strong>João Silva</strong>
         <p>
           <img src="icons/level.svg" alt="Level"/>
           Level {level}
