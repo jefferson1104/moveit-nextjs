@@ -1,6 +1,7 @@
 <div align="center">
   <img alt="Moveit" src="./public/moveit.png">
-  <br />
+  <br>
+  <br>
   <p align="center">
     <img alt="technology" src="https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=next.js&logoColor=white">
     <img alt="technology" src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white">
