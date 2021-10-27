@@ -21,7 +21,7 @@ Moveit is a game app to help you exercise in your work or study routines, amid t
 # :cyclone: How to run this project
 ```bash
 # Clone this repository
-$ git clone https://github.com/jefferson1104/moveit-nextJS.git
+$ git clone https://github.com/jefferson1104/moveit-nextjs.git
 
 # Access directory project
 $ cd moveit-nextJS
